@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
   email2: "yuyan2048h@gmail.com",
   researchGate: "https://www.researchgate.net/profile/Yuyan-Huang-11",
   github: "https://github.com/yuyan0h/YuyanHuang",
-  cvLink: "#", 
+  cvLink: "cvLink: import.meta.env.BASE_URL + "CV-YuyanHuang.pdf", 
   introHeader: "👋 Hi there, I'm Yuyan.",
   bio: [
     "I am a Master's student in Urban Planning at Tongji University and I am currently seeking a PhD position in related areas. My academic research focuses on LLM applications in cities, the urban food environment, and the broader urban environment. I strive to use data-driven approaches to solve complex urban challenges, particularly in carbon mitigation and sustainable food systems.",
