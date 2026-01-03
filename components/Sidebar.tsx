@@ -25,13 +25,11 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate }) => {
                   NOTE: User should place their 'photo.jpg' in the public/root folder.
                   Fallback to placeholder if not found (browser handles broken image icon). 
                 */}
-                <img 
-                  src=import.meta.env.BASE_URL + "/PHOTO.png" 
+                <img
+                  src={`${import.meta.env.BASE_URL}PHOTO.png`}
                   onError={(e) => {
                     e.currentTarget.src = "https://picsum.photos/300/300";
                   }}
-                  alt="Profile" 
-                  className="w-full h-full object-cover transition-all duration-500" 
                 />
             </div>
             
