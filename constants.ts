@@ -419,8 +419,8 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "China",
     year: "2024",
     images: [
-      { src: "/Guilin, China.JPG", caption: "Karst mountains in Guilin" },
-      { src: "/Kunming, China.JPG", caption: "Cityscape of Kunming" }
+      { src: import.meta.env.BASE_URL + "/Guilin, China.JPG", caption: "Karst mountains in Guilin" },
+      { src: import.meta.env.BASE_URL + "/Kunming, China.JPG", caption: "Cityscape of Kunming" }
     ]
   },
   {
@@ -430,8 +430,8 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "Japan",
     year: "2024",
     images: [
-      { src: "/Kamakura, Japan.JPG", caption: "Temples in Kamakura" },
-      { src: "/Mt.Fuji, Japan.JPG", caption: "Mount Fuji at sunrise" }
+      { src: import.meta.env.BASE_URL + "/Kamakura, Japan.JPG", caption: "Temples in Kamakura" },
+      { src: import.meta.env.BASE_URL + "/Mt.Fuji, Japan.JPG", caption: "Mount Fuji at sunrise" }
     ]
   },
   {
@@ -441,7 +441,7 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "Malaysia",
     year: "2024",
     images: [
-      { src: "/Penang, Malaysia.JPG", caption: "Street food in Penang" }
+      { src: import.meta.env.BASE_URL + "/Penang, Malaysia.JPG", caption: "Street food in Penang" }
     ]
   },
   {
@@ -451,8 +451,8 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "Seattle, WA",
     year: "2024",
     images: [
-      { src: "/Seattle, WA.JPG", caption: "Seattle skyline" },
-      { src: "/Seattle, WA 2.JPG", caption: "Seattle waterfront" }
+      { src: import.meta.env.BASE_URL + "/Seattle, WA.JPG", caption: "Seattle skyline" },
+      { src: import.meta.env.BASE_URL + "/Seattle, WA 2.JPG", caption: "Seattle waterfront" }
     ]
   },
   {
@@ -462,7 +462,7 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "Seoul, Korea",
     year: "2024",
     images: [
-      { src: "/Seoul, Korea.JPG", caption: "Seoul cityscape" }
+      { src: import.meta.env.BASE_URL + "/Seoul, Korea.JPG", caption: "Seoul cityscape" }
     ]
   },
   {
@@ -472,9 +472,9 @@ export const PHOTOGRAPHY_PROJECTS: PhotographyProject[] = [
     location: "Sydney, Australia",
     year: "2024",
     images: [
-      { src: "/Sydney, Australia.JPG", caption: "Sydney Opera House" },
-      { src: "/Sydney, Australia 2.JPG", caption: "Sydney Harbour" },
-      { src: "/Sydney, Australia 3.JPG", caption: "Sydney skyline" }
+      { src: import.meta.env.BASE_URL + "/Sydney, Australia.JPG", caption: "Sydney Opera House" },
+      { src: import.meta.env.BASE_URL + "/Sydney, Australia 2.JPG", caption: "Sydney Harbour" },
+      { src: import.meta.env.BASE_URL + "/Sydney, Australia 3.JPG", caption: "Sydney skyline" }
     ]
   }
 ];
