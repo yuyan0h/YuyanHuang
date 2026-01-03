@@ -26,7 +26,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate }) => {
                   Fallback to placeholder if not found (browser handles broken image icon). 
                 */}
                 <img 
-                  src="/PHOTO.png" 
+                  src=import.meta.env.BASE_URL + "/PHOTO.png" 
                   onError={(e) => {
                     e.currentTarget.src = "https://picsum.photos/300/300";
                   }}
